@@ -1,0 +1,76 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+#main{
+  background-image: url(../img/seattle-background.jpg);
+  background-size: stretch;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  transition: width 2s;
+}
+
+#main.shrink{
+  width: 40%;
+  top: 0; 
+  left: 0; 
+  position: fixed; 
+}
+
+#mainContainer{
+  margin: 15% auto;
+  height: 400px;
+  width: 400px;
+  background: white;
+  opacity: .6;
+  border-radius: 250px;
+  text-align: center;
+}
+
+
+
+a{
+  margin-top: 20%;
+  text-decoration: none;
+  color: black;
+  line-height: 1em;
+  padding: 10px;
+}
+
+hr{
+  width: 50%;
+}
+
+h1{
+  padding-top: 20%;
+}
+h2{
+  padding-bottom: 8%;
+}
+#contactIcons, #buttons{
+  margin: 10px;
+}
+
+button{
+  margin: 0 8px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  border: 1px solid black;
+  background: none;
+}
+
+#aboutDiv, #projectsDiv, #contactDiv{
+  width: 50%;
+  float: right;
+}
+
+.hidden{
+  display: none;
+}
+
+.display{
+  display: unset;
+}
